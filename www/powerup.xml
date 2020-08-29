@@ -1,0 +1,7 @@
+<?xml version='1.0' ?>
+	<chapter1>
+		<hint id='intro1'>Here, you will have to go through the maze, (Press "X" to continue)</hint>
+		<hint id='intro2'>Destroy all the enemies, (Press "X" to continue)</hint>
+		<hint id='intro3'>Watchout!! U never know what is hidden!! (Press "X" to continue)</hint>
+		<hint id='intro4'>Tips: Use spacebar to jump higher and move faster!! (Press "X" to continue)</hint>
+	</chapter1>

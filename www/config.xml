@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="com.pravesh.game" version="2.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Surviving_the_Danger</name>
+	<description>Danger Game</description>
+	<author href="www.dangergame.com" email="dangergame@gmail.com">Pravesh</author>
+
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
+	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
+
+	<preference name='phonegap-version' value='cli-7.1.0' />
+	<preference name="android-targetSdkVersion" value="29" />
+
+	<preference name="orientation" value="landscape" />
+	<preference name="fullscreen" value="true" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="AllowInlineMediaPlayback" value="true" />
+
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
+	<access origin="*" />
+
+	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-inappbrowser" />
+	<plugin name="cordova-plugin-statusbar" />
+	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
+	<plugin name="cordova-plugin-admob-free" spec="~0.25.0">
+		<variable name="ADMOB_APP_ID" value="ca-app-pub-5488564233423968~5428579246" /> 
+	</plugin>
+
+ 	<engine name="android" />
+</widget>
